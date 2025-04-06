@@ -1,0 +1,17 @@
+{
+    "some-server-name-1": {
+        "command": "node",
+        "args": [
+            "/absolut-path-to-local-server-folder-1/build/index.js"
+        ]
+    },
+    "some-server-name-2": {
+        "command": "uv",
+        "args": [
+             "--directory",
+            "/absolut-path-to-local-server-folder-2",
+            "run",
+            "main.py"
+        ]
+    }
+}
