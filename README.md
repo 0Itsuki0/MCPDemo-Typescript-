@@ -3,7 +3,7 @@
 
 For more details, please refer to my article:
 - [Get Start with Model Context Protocol](https://medium.com/gitconnected/get-start-with-model-context-protocol-671ebf3fe62d).
-- [MCP Server and Client with SSE & The New Streamable HTTP]()
+- [MCP Server and Client with SSE & The New Streamable HTTP](https://medium.com/@itsuki.enjoy/mcp-server-and-client-with-sse-the-new-streamable-http-d860850d9d9d)
 
 
 ## Table of Contents
