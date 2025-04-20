@@ -17,7 +17,7 @@
     "author": "itsuki",
     "license": "ISC",
     "dependencies": {
-        "@modelcontextprotocol/sdk": "^1.10.0",
+        "@modelcontextprotocol/sdk": "^1.10.1",
         "express": "^5.1.0"
     },
     "devDependencies": {
