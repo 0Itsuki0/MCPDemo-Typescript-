@@ -1,14 +1,5 @@
 # Remote MCP with [Streamable HTTP](https://modelcontextprotocol.io/specification/2025-03-26/basic/transports#streamable-http)
 
-## Common set up
-By the time this demo is created, typescript SDK with StreamableHTTP is not available through `npm install` yet. Do the following to set the project up.
-
-1. Download the [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) and replace the `typescript-sdk` folder with it.
-2. Open `tsconfig`.json and remove `dist` from `exclude` to enable type checking, ie: it should become `"exclude": ["node_modules"]`.
-3. `npm install` and `npm run build`
-4. Use this as the dependency instead, ie: `"@modelcontextprotocol/sdk": "file:../typescript-sdk"` in the `package.json` for both the server and the client
-
-
 ## Remote MCP Server with Streamable HTTP
 
 An MCP server that is able to connect to multiple client with `StreamableHTTPServerTransport`.

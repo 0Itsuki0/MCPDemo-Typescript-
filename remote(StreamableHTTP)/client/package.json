@@ -15,7 +15,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "file:../typescript-sdk",
+    "@modelcontextprotocol/sdk": "^1.10.0",
     "dotenv": "^16.4.7",
     "openai": "^4.91.1"
   }
