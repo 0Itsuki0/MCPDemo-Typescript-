@@ -18,7 +18,6 @@
     "license": "ISC",
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.10.0",
-        "@vendia/serverless-express": "^4.12.6",
         "express": "^5.1.0"
     },
     "devDependencies": {
