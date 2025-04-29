@@ -22,8 +22,6 @@ const server = new MCPServer(
 /******* Endpoint Set Up *******/
 /*******************************/
 
-// to support multiple simultaneous connections
-
 const app = express()
 app.use(express.json())
 

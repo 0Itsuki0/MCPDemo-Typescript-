@@ -1,5 +1,9 @@
 # Remote MCP (Streamable HTTP) + Authorization
 
+For more details:
+- [MCP Authorization: The NEW RS and AS Separation!](https://medium.com/@itsuki.enjoy/model-context-protocol-mcp-authorization-the-new-rs-and-as-separation-4acfd700db14)
+
+
 This demo is created conforming the [new MCP Authorization specifciation](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fmodelcontextprotocol%2Fmodelcontextprotocol%2Fblob%2F44f3de53dc3b5c3752cc01f60b18615379e42a6f%2Fdocs%2Fspecification%2Fdraft%2Fbasic%2Fauthorization.mdx) where the Authorization Server and Resource server are seperated and  the flow consists of four roles
 
 - End user

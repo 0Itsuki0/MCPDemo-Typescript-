@@ -23,7 +23,7 @@ This server supports:
 
 ## MCP Client for remote Server with Streamable Http
 
-An MCP client connect to remote server with `SSEClientTransport`.
+An MCP client connect to remote server with `StreamableHTTPClientTransport`.
 
 ### Features
 Upon start, the client will
