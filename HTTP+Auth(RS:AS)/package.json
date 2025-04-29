@@ -1,0 +1,39 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "create-mcp-server": "./build/index.js"
+    },
+    "scripts": {
+        "build": "tsc && chmod 755 build/*",
+        "dev": "npm run build && node build/index.js",
+        "dev:client": "npm run build && node build/client/index.js startClient",
+        "dev:rs": "npm run build && node build/resourceServer/index.js startResourceServer",
+        "dev:as": "npm run build && node build/authServer/index.js startAuthorizationServer"
+    },
+    "files": [
+        "build"
+    ],
+    "keywords": [],
+    "author": "itsuki",
+    "license": "ISC",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "file:../../mcp-typescript-sdk-fork",
+        "@node-oauth/oauth2-server": "^5.2.0",
+        "dotenv": "^16.5.0",
+        "ejs": "^3.1.10",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "openid-client": "^6.4.2",
+        "puppeteer": "^24.7.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/jsonwebtoken": "^9.0.9",
+        "@types/node": "^22.14.0",
+        "typescript": "^5.8.3"
+    }
+}
